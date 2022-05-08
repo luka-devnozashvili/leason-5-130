@@ -26,14 +26,14 @@
 /*header endded*/
 
 
-/*section start*/
+/*section-1 start*/
 .h2{
 	font-size: 24px;
 	margin: 0 0 40px 0;
 	font-family: 'arial';
 	font-weight: bold;
 }
-.section-div{
+.section-div-1{
 	background: #F6F8F9;
 	margin: 75px auto 0 auto;
 	height: 410px;
@@ -62,10 +62,33 @@
 	margin:66px auto;
 	font-size: 13px;
 }
-/*.div-1{
-	/*display: inline-block;*/
-	margin: 50px auto;
-	background: greenyellow;
-	width: 300px;
-	height: 200px;
-}*/
+/*section-1 ended*/
+
+
+/*section-2 start*/
+.section-div-2{
+	margin: 0 auto;
+	width: 1160px;
+	height: 900px;
+	background: red;
+}
+.left-block{
+	display: inline-block;
+	vertical-align: middle;
+}
+.right-block{
+	display: inline-block;
+	vertical-align: middle;
+}
+.img-div2{
+	position: relative;
+}
+.p2-1{
+	position: absolute;
+	right: 21px;
+	bottom: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	font-family: 'arial';
+}
